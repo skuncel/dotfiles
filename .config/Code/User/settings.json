@@ -1,0 +1,63 @@
+{
+  // window, requirements: miguelsolorio.min-theme,iocave.customize-ui, keenethics.keen-neutral-icon-theme
+  "workbench.colorTheme": "Min Light",
+  "workbench.preferredDarkColorTheme": "Min Dark",
+  "workbench.preferredLightColorTheme": "Min Light",
+  "workbench.iconTheme": "keen-neutral-icon-theme",
+  "workbench.editor.showIcons": false,
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.activityBar.visible": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "window.autoDetectColorScheme": true,
+  "window.nativeTabs": true,
+  "window.zoomLevel": -0.5,
+  "customizeUI.activityBar": "bottom",
+  "customizeUI.titleBar": "inline",
+  "window.titleBarStyle": "native",
+  "customizeUI.activityBarHideSettings": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  // editor, requirements: SFMono Nerd Font
+  "editor.fontFamily": "SFMono Nerd Font",
+  "editor.fontSize": 12,
+  "editor.fontWeight": "normal",
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "[yaml]": {
+
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced"
+  },
+  // terminal, requirements: SFMono Nerd Font
+  "terminal.integrated.fontFamily": "SFMono Nerd Font",
+  "terminal.integrated.tabs.enabled": true,
+  "workbench.colorCustomizations": {
+    "terminal.ansiBlack":"#8f8e92",
+    "terminal.ansiRed":"#ff3b2f",
+    "terminal.ansiGreen":"#2acd41",
+    "terminal.ansiYellow":"#fecc02",
+    "terminal.ansiBlue":"#007bff",
+    "terminal.ansiMagenta":"#b052de",
+    "terminal.ansiCyan":"#54bef0",
+    "terminal.ansiWhite":"#fffeff",
+    
+    "terminal.ansiBrightBlack":"#8f8e92",
+    "terminal.ansiBrightRed":"#ff3b2f",
+    "terminal.ansiBrightGreen":"#2acd41",
+    "terminal.ansiBrightYellow":"#fecc02",
+    "terminal.ansiBrightBlue":"#007bff",
+    "terminal.ansiBrightMagenta":"#b052de",
+    "terminal.ansiBrightCyan":"#54bef0",
+    "terminal.ansiBrightWhite":"#fffeff"
+  },
+  // java, requirements: vscjava.vscode-java-pack
+  "java.project.importOnFirstTimeStartup": "automatic",
+  // latex, requirements: james-yu.latex-workshop
+  "latex-workshop.view.pdf.viewer": "tab"
+}
