@@ -20,6 +20,7 @@ bindkey "^[b" beginning-of-line
 bindkey "^[f" end-of-line
 
 # options
+autoload compinit && compinit
 zstyle ':completion:*' menu select
 
 # environment
