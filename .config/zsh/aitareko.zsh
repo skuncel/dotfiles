@@ -45,7 +45,7 @@ export POWERLEVEL9K_MODE='nerdfont-complete'
 export POWERLEVEL9K_TRANSIENT_PROMPT=always
 
 ### prompt
-export POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user ssh dir dir_writable_joined vcs kubecontext nvm go_version java_version newline status)
+export POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(ssh user_joined dir dir_writable_joined vcs kubecontext nvm go_version java_version newline status)
 export POWERLEVEL9K_LEFT_SEGMENT_END_SEPARATOR='%F{008}%F{008} '
 export POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR=''
 export POWERLEVEL9K_LEFT_SUBSEGMENT_SEPARATOR=%F{008}%F{008}
@@ -78,6 +78,7 @@ export POWERLEVEL9K_JAVA_ICON=
 export POWERLEVEL9K_NODE_ICON=
 export POWERLEVEL9K_GO_ICON=ﳑ
 export POWERLEVEL9K_GOLANG_ICON=ﳑ
+export POWERLEVEL9K_SSH_ICON='歷'
 
 ### colors
 export POWERLEVEL9K_DIR_DEFAULT_BACKGROUND="clear"
@@ -118,6 +119,9 @@ export POWERLEVEL9K_STATUS_BACKGROUND="clear"
 export POWERLEVEL9K_SHORTEN_DELIMITER='%F{008} …%F{008}'
 export POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 export POWERLEVEL9K_SHORTEN_STRATEGY="none"
+
+export POWERLEVEL9K_SSH_BACKGROUND='clear'
+export POWERLEVEL9K_SSH_FOREGROUND='yellow'
 
 # plugin
 source ${ZSH_AUTOSUGGESTIONS_PATH}
