@@ -1,20 +1,23 @@
 {
-  // window, requirements: miguelsolorio.min-theme,iocave.customize-ui, keenethics.keen-neutral-icon-theme
-  "workbench.colorTheme": "Min Light",
-  "workbench.preferredDarkColorTheme": "Min Dark",
-  "workbench.preferredLightColorTheme": "Min Light",
-  "workbench.iconTheme": "keen-neutral-icon-theme",
+  // window, requirements: github.github-vscode-theme,iocave.customize-ui, pkief.material-icon-theme
+  "workbench.colorTheme": "GitHub Light",
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
+  "workbench.preferredLightColorTheme": "GitHub Light",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.showIcons": false,
   "workbench.editor.untitled.hint": "hidden",
   "workbench.activityBar.visible": true,
   "workbench.startupEditor": "newUntitledFile",
+  "extensions.ignoreRecommendations": true,
   "window.autoDetectColorScheme": true,
   "window.nativeTabs": true,
   "window.zoomLevel": -0.5,
-  "customizeUI.activityBar": "bottom",
+  "customizeUI.activityBar": "wide",
   "customizeUI.titleBar": "inline",
   "window.titleBarStyle": "native",
-  "customizeUI.activityBarHideSettings": true,
+  "customizeUI.stylesheet": {
+    ".monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item .action-label": "margin: 0 auto;"
+  },
   "files.exclude": {
     "**/.classpath": true,
     "**/.project": true,
@@ -56,6 +59,8 @@
     "terminal.ansiBrightCyan":"#54bef0",
     "terminal.ansiBrightWhite":"#fffeff"
   },
+  //git
+  "git.enableCommitSigning" : true,
   // java, requirements: vscjava.vscode-java-pack
   "java.project.importOnFirstTimeStartup": "automatic",
   // latex, requirements: james-yu.latex-workshop
