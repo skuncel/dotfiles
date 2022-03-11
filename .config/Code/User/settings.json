@@ -31,6 +31,8 @@
   "editor.minimap.enabled": false,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs":"active",
   "[yaml]": {
 
     "editor.insertSpaces": true,
