@@ -1,8 +1,6 @@
 {
   // window, requirements: github.github-vscode-theme,iocave.customize-ui, pkief.material-icon-theme
-  "workbench.colorTheme": "GitHub Light",
-  "workbench.preferredDarkColorTheme": "GitHub Dark",
-  "workbench.preferredLightColorTheme": "GitHub Light",
+  "workbench.colorTheme": "GitHub Dark",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.showIcons": false,
   "workbench.editor.untitled.hint": "hidden",
